@@ -1,0 +1,8 @@
+set context persistent nowriters
+2	set metadata metadata\cache.cab
+3	set verbose on
+4	delete shadows all
+5	
+6	
+7	delete shadows exposed %binDriveVSS%
+8	delete shadows exposed %dataDriveVSS%
